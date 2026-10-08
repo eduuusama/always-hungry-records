@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Always Hungry Records — Vinyl-Only Label</title>
+  <meta name="description" content="Vinyl-only label. Pressing the kind of timeless records the founders personally love and wish existed.">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Always Hungry Records">
+  <meta property="og:title" content="Always Hungry Records — Vinyl-Only Label">
+  <meta property="og:description" content="Vinyl-only label. Pressing the kind of timeless records the founders personally love and wish existed.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preload" href="fonts/overpass-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="boot.js"></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#who">Skip to content</a>
+
+  <!-- The cat. Drawn once, reused by the header mark and the pinned head. Never redraw it. -->
+  <svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <g id="ahr-cat" fill="currentColor">
+        <path fill-rule="evenodd" d="M 14 34.1 L 41 11 L 63 39 L 91 64 L 117 42 L 144 29 L 169 49 L 192 79 L 206 117 L 213 153 L 205 193 L 186 229 L 170.6 250 L 14 250 Z M 87.13 168.56 C 108.58 146.45 139.45 147.5 155.39 167.58 C 135.65 190.72 104.26 190.53 87.13 168.56 Z M 22.95 148.08 C 46.99 133.93 73.86 141 83.05 162.92 C 61.13 177.77 34.26 172.12 22.95 148.08 Z"/>
+        <path d="M 128.64 153.84 C 130.18 162.93 119.88 180.08 111.13 182.99 C 109.59 173.89 119.89 156.75 128.64 153.84 Z"/>
+        <path d="M 63.25 144.54 C 62.55 153.73 49.11 167.17 39.92 167.87 C 40.63 158.68 54.06 145.25 63.25 144.54 Z"/>
+      </g>
+    </defs>
+  </svg>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Always Hungry Records, back to top">
+      <svg class="brand__mark" viewBox="14 11 199 239" aria-hidden="true" focusable="false"><use href="#ahr-cat"/></svg>
+      <span class="brand__name">Always Hungry <span class="brand__sub">Records</span></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#who">Who</a>
+      <a href="#what-we-do">What we do</a>
+      <a href="#dna">DNA</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+  </header>
+
+  <!-- Phone / tablet menu. data-head-dark: the pinned head flips to paper over it, like any dark section. -->
+  <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu" hidden data-head-dark>
+    <div class="menu__bar">
+      <a class="brand" href="#top" aria-label="Always Hungry Records, back to top">
+        <svg class="brand__mark" viewBox="14 11 199 239" aria-hidden="true" focusable="false"><use href="#ahr-cat"/></svg>
+      </a>
+      <button class="menu__close" type="button">Close</button>
+    </div>
+    <nav class="menu__nav" aria-label="Menu">
+      <a href="#who">Who</a>
+      <a href="#what-we-do">What we do</a>
+      <a href="#dna">DNA</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__word">
+        <h1 class="hero__title reveal" id="hero-title"><span>Always</span> <span>Hungry</span></h1>
+      </div>
+      <div class="hero__row reveal" data-d="1">
+        <p class="hero__tag">Vinyl-Only Label</p>
+        <a class="hero__side" href="#who">Side A <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="who" id="who" aria-labelledby="who-label">
+      <h2 class="label reveal" id="who-label">A1 — Who</h2>
+      <p class="who__text reveal" data-d="1">Vinyl-only label. Pressing the kind of timeless records the founders personally love and wish existed. Dedicated to creating collector-level timepieces that preserve rare sounds and analog craftsmanship.</p>
+    </section>
+
+    <section class="wwd" id="what-we-do" aria-labelledby="wwd-label" data-head-dark>
+      <h2 class="label label--on-dark reveal" id="wwd-label">A2 — What we do</h2>
+      <p class="wwd__text reveal" data-d="1">We work with artists and archives to create collector-level vinyl that feels as good as it sounds: rare pressings, bold visual aesthetic &amp; variants, and attention to every groove and sleeve. Each release is a small tribute to timeless human-made music and timeless analog technology — created for those that appreciate the thrill of owning a rare physical slice of history.</p>
+    </section>
+
+    <section class="dna" id="dna" aria-labelledby="dna-label">
+      <h2 class="label reveal" id="dna-label">B1 — DNA</h2>
+      <ol class="dna__rows">
+        <li class="dna__row reveal">
+          <span class="dna__num" aria-hidden="true">01</span>
+          <div><h3 class="dna__title">Timepiece creation</h3></div>
+        </li>
+        <li class="dna__row reveal" data-d="1">
+          <span class="dna__num" aria-hidden="true">02</span>
+          <div>
+            <h3 class="dna__title">Limited signature pressings</h3>
+            <p class="dna__note">All numbered</p>
+          </div>
+        </li>
+        <li class="dna__row reveal" data-d="2">
+          <span class="dna__num" aria-hidden="true">03</span>
+          <div><h3 class="dna__title">Elevated visual identity</h3></div>
+        </li>
+        <li class="dna__row reveal" data-d="3">
+          <span class="dna__num" aria-hidden="true">04</span>
+          <div>
+            <h3 class="dna__title">Catalog curation</h3>
+            <ul class="dna__tags">
+              <li>Indie Rock</li>
+              <li>Deep House</li>
+              <li>Disco House</li>
+              <li>Jazz House</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="contact" id="contact" aria-labelledby="contact-label">
+    <div class="contact__main">
+      <h2 class="label reveal" id="contact-label">B2 — Contact</h2>
+      <!-- TODO: real links are not supplied yet (README: "Don't invent them").
+           Replace each placeholder <span> with <a href="…">[ Label ]</a>; links are already styled. -->
+      <ul class="contact__links">
+        <li class="reveal"><span class="placeholder">[ Contact email ]</span></li>
+        <li class="reveal" data-d="1"><span class="placeholder">[ Instagram ]</span></li>
+        <li class="reveal" data-d="2"><span class="placeholder">[ Bandcamp ]</span></li>
+      </ul>
+    </div>
+    <div class="contact__sign">
+      <p>Stay hungry. — AHR</p>
+      <p class="contact__end">End of side B</p>
+    </div>
+  </footer>
+
+  <!-- The pinned head. Ink by default; the paper copy is clipped by main.js to whatever dark section is behind it. -->
+  <div class="watcher" aria-hidden="true">
+    <svg class="watcher__ink" viewBox="14 11 199 239" preserveAspectRatio="xMinYMax meet" focusable="false"><use href="#ahr-cat"/></svg>
+    <svg class="watcher__paper" viewBox="14 11 199 239" preserveAspectRatio="xMinYMax meet" focusable="false"><use href="#ahr-cat"/></svg>
+  </div>
+</body>
+</html>
