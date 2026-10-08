@@ -4,6 +4,8 @@ Homepage for Always Hungry Records, a vinyl-only label.
 
 One scrolling page, named like the sides of a record — Hero, **A1 Who**, **A2 What we do**, **B1 DNA**, **B2 Contact** — with a large cat head pinned to the bottom-left corner of the screen. It's ink on light sections; where the dark "What we do" section passes behind it, the head turns paper-coloured, line for line.
 
+**Live:** https://always-hungry-records.vercel.app  ·  **Repo:** https://github.com/eduuusama/always-hungry-records
+
 Plain HTML, CSS and a little JavaScript. No framework, no build step, no dependencies.
 
 ## Run it
@@ -37,7 +39,7 @@ Vercel project **always-hungry-records**, connected to this repo. Pushes to `mai
 ## Still to do
 
 - **Contact links.** Email, Instagram and Bandcamp aren't supplied yet, so `index.html` has bracketed placeholders (`[ Contact email ]` …). Replace each `<span class="placeholder">` with `<a href="…">[ Label ]</a>`; link styling is already in place.
-- **Custom domain.** Add it in Vercel, then update the `canonical` and `og:url` tags in `index.html` (and `og:image` if the host changes).
+- **Custom domain.** Add it in Vercel (Project → Settings → Domains), then change the `canonical`, `og:url`, `og:image` and `twitter:image` URLs in `index.html` from `always-hungry-records.vercel.app` to the new host.
 
 ## Design rules this follows
 
